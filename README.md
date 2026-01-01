@@ -1,3 +1,7 @@
+# Disclaimer
+
+This is a static website I created by following a youtube tutorial (link in the website). I made several changes to the content including a few functionalities to personalized the project. 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
