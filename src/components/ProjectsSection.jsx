@@ -17,6 +17,7 @@ const projects = [
         image: "/projects/Project2.png",
         tags: ['HTML', 'CSS', 'Firebase','ESP32'],
         demoUrl: 'https://formaldehyde-monitoring.web.app/',
+        gitHubURL: '#',
     },
     {
         id: 3,
@@ -24,6 +25,8 @@ const projects = [
         description: 'Learning Out of Messy Piles is an original quiz-themed game, developed by Augustinian Developer Society students for a competitive challenge.',
         image: "/projects/Project3.png",
         tags: ['UnityEngine', 'C#', 'Visual Studio'],
+        demoUrl: '#',
+        gitHubURL: '#',
     },
 ]
 
