@@ -3,26 +3,24 @@ import { cn } from "@/lib/utils";
 
 const skills = [
     // Languages
-    {name: 'HTML/CSS', level: 5, category: 'languages'},
-    {name: 'JavaScript', level: 5, category: 'languages'},
-    {name: 'Python', level: 5, category: 'languages'},
-    {name: 'C++', level: 5, category: 'languages'},
-    {name: 'C', level: 5, category: 'languages'},
-    {name: 'Java', level: 5, category: 'languages'},
+    {name: 'HTML/CSS', level: 50, category: 'languages'},
+    {name: 'JavaScript', level: 50, category: 'languages'},
+    {name: 'C++', level: 50, category: 'languages'},
+    {name: 'Java', level: 50, category: 'languages'},
     
     // Libraries
-    {name: 'React', level: 5, category: 'libraries'},
-    {name: 'TailWind CSS', level: 5, category: 'libraries'},
-    {name: 'Bootstrap', level: 5, category: 'libraries'},
+    {name: 'React', level: 50, category: 'libraries'},
+    {name: 'TailWind CSS', level: 50, category: 'libraries'},
+    {name: 'Bootstrap', level: 50, category: 'libraries'},
 
     // Tools
-    {name: 'Node.js', level: 5, category: 'tools'},
-    {name: 'Git', level: 5, category: 'tools'},
-    {name: 'NPM', level: 5, category: 'tools'},
-    {name: 'Vite', level: 5, category: 'tools'},
-    {name: 'Vercel', level: 5, category: 'tools'},
-    {name: 'Firebase', level: 5, category: 'tools'},
-    {name: 'VSCode', level: 5, category: 'tools'},
+    {name: 'Node.js', level: 60, category: 'tools'},
+    {name: 'Git', level: 60, category: 'tools'},
+    {name: 'NPM', level: 80, category: 'tools'},
+    {name: 'Vite', level: 80, category: 'tools'},
+    {name: 'Vercel', level: 50, category: 'tools'},
+    {name: 'Firebase', level: 50, category: 'tools'},
+    {name: 'VSCode', level: 99, category: 'tools'},
 ];
 
 const categories = ['all', 'languages', 'libraries', 'tools'];
