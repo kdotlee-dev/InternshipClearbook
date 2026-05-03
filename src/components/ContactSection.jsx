@@ -52,7 +52,7 @@ export const ContactSection = () => {
                                         href='mailto:kdotlee.dev@gmail.com'
                                         className='text-muted-foreground hover:text-primary transition-colors'
                                     >
-                                        klee@usa.edu.ph
+                                        klee@usa.edu.ph / kdotlee.dev@gmail.com
                                     </a>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ export const ContactSection = () => {
                                         href='tel:+11234567890'
                                         className='text-muted-foreground hover:text-primary transition-colors'
                                     >
-                                        N/A
+                                        to be updated
                                     </a>
                                 </div>
                             </div>
