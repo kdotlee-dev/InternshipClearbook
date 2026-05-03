@@ -81,9 +81,13 @@
 
     /*--primary: 250 47% 60%;*//*soft violet / indigo-purple*/
   
-    --primary: 203 89% 53%; /* Twitter Blue */
+    /*--primary: 203 89% 53%; /* Twitter Blue */ 
 
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 74% 48%; /* vibrant red for light mode */
+
+    /*--primary-foreground: 210 40% 98%;*/
+
+    --primary-foreground: 0 0% 100%; /* pure white for primary text */
 
     --border: 214 32% 91%;
   }
@@ -95,9 +99,13 @@
     --card: 222 47% 8%;
 
     /*--primary: 250 65% 65%;*/
-    --primary: 203 89% 53%; /* Twitter Blue */
+    /*--primary: 203 89% 53%; /* Twitter Blue */
 
-    --primary-foreground: 213 31% 91%;
+    --primary: 0 72% 52%; /* vibrant red for dark mode */
+
+    /*--primary-foreground: 213 31% 91%;*/
+
+    --primary-foreground: 0 0% 100%;
 
     --border: 217 33% 20%;
   }
@@ -144,7 +152,8 @@
 @utility text-glow {
   @apply relative;
   /*text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);*/
-  text-shadow: 0 0 15px rgba(29, 155, 240, 0.6); /* lighter Twitter Blue glow */
+  /*text-shadow: 0 0 15px rgba(29, 155, 240, 0.6); /* lighter Twitter Blue glow */
+  text-shadow: 0 0 15px rgba(215, 32, 32, 0.6); /* vibrant red glow */
 }
 
 @utility card-hover {
@@ -162,9 +171,12 @@
   /*@apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
          transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] 
          hover:scale-105 active:scale-95;*/
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
+  /*@apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
          transition-all duration-300 hover:shadow-[0_0_14px_rgba(29,155,240,0.6)]
-         hover:scale-105 active:scale-95;       
+         hover:scale-105 active:scale-95;*/
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
+         transition-all duration-300 hover:shadow-[0_0_14px_rgba(215,32,32,0.6)]
+         hover:scale-105 active:scale-95;               
 }
 
 @utility star {
