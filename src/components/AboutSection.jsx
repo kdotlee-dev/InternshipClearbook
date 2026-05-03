@@ -28,7 +28,7 @@ export const AboutSection = () => {
                         <a href='#contact' className='cosmic-button'>
                             Contact Me
                         </a>
-                        <a href='https://drive.google.com/uc?export=download&id=1b-WpzKwm35c094v6DSBnO28wnVAMkbvR' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>
+                        <a href='https://drive.google.com/uc?export=download&id=16zJ8VD5U59cnpWz6EzHkqPRVxe0wqHqp' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>
                             Résumé
                         </a>
                     </div>
